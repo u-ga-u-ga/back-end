@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    username: 계정
+    password: 패스워드
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@uga_high?TNS_ADMIN=./src/main/resources/Wallet/Wallet_uga
