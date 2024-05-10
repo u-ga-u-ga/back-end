@@ -9,7 +9,7 @@
 - Java 17
 - Spring Boot 3.2.0
     - web mvc, jpa, QueryDSL
-- *DB버전*
+- Oracle 19c
 
 ## 폴더 구조
 
