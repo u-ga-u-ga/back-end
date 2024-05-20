@@ -44,6 +44,13 @@ dependencies {
     implementation 'com.oracle.database.security:osdt_cert'
     implementation 'com.oracle.database.security:oraclepki'
     implementation 'com.oracle.database.security:osdt_core'
+
+    // 런타임 실행시 사용자 id 및 pw 암호화
+    implementation 'com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.5'
+
+    // 구글 oauth2
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+
 }
 
 tasks.named('test') {
